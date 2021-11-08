@@ -1,11 +1,11 @@
 import React from "react";
-import "./../App.css"
+import './traffic.css'
 
-export class Red extends React.Component{
-    render() {
+export const Red = (props) =>{
+
         return (
-            <div className="red" activeClassName="active__red"> </div>
+            <div className={props.colorStyle} > </div>
         )
-    }
+
 
 }
